@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      h1 {
+        border-bottom: 1px solid gray;
+        text-align:center;
+        font-size:45px;
+        padding:20px;
+        margin:0;
+      }
+      ol{
+        border-right:1px solid gray;
+        width:100px;
+        margin:0;
+        padding-left: 29;
+      }
+      #grid {
+        display:grid;
+        grid-template-columns: 150px 1fr;
+      }
+      @media(max-width:800px)  {
+        #grid{
+          display: block;
+        }
+        ol{
+          border-right: none;
+        }
+      }
+      body{
+        background-image: url(bababa.jpg);
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML</h1>
+   <div id="grid">
+      <ol>
+      <li><a href="csharp.html"><h2>C#</h2></a></li>
+      <li><a href="python.html"><h2>python</h2></a></li>
+      <li><a href="unity.html"><h2>Unity</h2></a></li>
+      </ol>
+          <div>
+               <h3>h1~h6 /h1~h6 글자 크기<br>
+                 strong /strong 글자 굵게<br>
+                  u /u 밑줄<br>
+                    br 문단 나눔<br>
+                      p /p 문단 나눔(묶어서)<br>
+                        img src="" 이미지<br>
+                          ul /ul unordered list<br>
+                          ol /ol ordered list<br>
+                        li /li list<br>
+                      title /title 제목<br>
+                    meta 인코딩<br>
+                a href ="" 링크 + target ="_blank" 새창에서 페이지가 열리게 하는 속성<br>
+                  body /body 본문<br>
+                  head /head 본문을 설명하는 태그<br>
+            </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      h1 {
+        border-bottom: 1px solid gray;
+        text-align:center;
+        font-size:45px;
+        padding:20px;
+        margin:0;
+      }
+      h2{
+        text-align:center;
+        margin:0;
+        padding:5px;
+      }
+      ol{
+        border-right:1px solid gray;
+        width:100px;
+        margin:0;
+        padding-left: 29;
+      }
+      #grid {
+        display:grid;
+        grid-template-columns: 150px 1fr;
+      }
+      @media(max-width:800px)  {
+        #grid{
+          display: block;
+        }
+        ol{
+          border-right: none;
+        }
+      }
+      body{
+        background-image: url(bababa.jpg);
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>unity</h1>
+    <h2>vector를 이용하여 오브젝트 이동<h2>
+    <h2> Translate는 벡터 값을 현재 위치에 더하는  함수<h2>
+    <h2>transform은 현재 위치 의미<h2>
+      <img src="vector.PNG">
+    <h2> Input.GetAxis("Horizontal")은 Horizontal이 눌리면 x축으로 부동소수형 이동<h2>
+    <img src="vector moving.PNG">

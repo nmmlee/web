@@ -1,0 +1,62 @@
+/*#wrapper{
+  border: 5px solid red;
+}
+#wrapper>*{
+  border: 5px solid green;
+}*/
+body{
+  background-image: url(../../images/bababa.jpg);
+  background-size: cover;
+}
+#header{
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.avatar {
+  border-radius: 100%;
+  display: inline-block;
+  padding:0.5rem;
+  border: 5px solid rgba(255,255,255,0.25);
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-bottom: 2rem;
+}
+.avatar img{
+  border-radius: 100%;
+  display: block;
+}
+#header h1{
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 200;
+}
+#header h1 strong{
+  color: white;
+}
+#header h1 a {
+  color:rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  border-bottom: 1px dotted
+  rgba(255, 255, 255, 0.5);
+}
+/*#main .thumbnails{
+  display: flex;
+}
+.thumbnails>div{
+  flex-grow: 1;
+  margin-right:1rem;
+  margin-left: 1rem;
+}*/
+.thumbnails img{
+  border-top-left-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+  border-bottom-left-radius: 0.6rem;
+  text-align: center;
+  padding-top: 2rem;
+
+}
+.thumbnails h3{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
